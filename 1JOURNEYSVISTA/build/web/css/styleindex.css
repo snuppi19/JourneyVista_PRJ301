@@ -1,0 +1,264 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+    color: beige;
+}
+.hehe {
+    background-image: url('../images/lokaimg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.logo {
+    width: 300px;
+}
+.top-nav {
+    display: flex;
+    align-items: center;
+}
+.top-nav img {
+    width: 30px;
+}
+.top-nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 14px;
+}
+.btn {
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.btn-outline {
+    border: 2px solid white;
+}
+.btn-blue {
+    background-color: orange;
+    border: none;
+}
+.main-nav {
+    margin-bottom: 20px;
+}
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 14px;
+}
+.booking-form {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    color: #333;
+}
+.tabs {
+    display: flex;
+    margin-bottom: 20px;
+}
+.tab {
+    padding: 10px 15px;
+    background-color: #f0f0f0;
+    border-radius: 5px 5px 0 0;
+    margin-right: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.tab a {
+    text-decoration: none;
+    color: black;
+}
+.tab.active {
+    background-color: lightsalmon;
+    color: black;
+}
+.tab img {
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+.form-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+input, select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex-grow: 1;
+}
+.search-btn {
+    background-color: lightsalmon;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.trusted-by {
+    text-align: center;
+    margin-top: 20px;
+}
+.trusted-by img {
+    height: 30px;
+    margin: 0 10px;
+}
+.passenger-select {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+}
+.passenger-select i {
+    margin-right: 10px;
+}
+.passenger-select .bi-chevron-down {
+    margin-left: auto;
+}
+.passenger-modal {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    display: none;
+}
+.passenger-type {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.passenger-type small {
+    display: block;
+    color: #666;
+    font-size: 0.8em;
+}
+.passenger-controls {
+    display: flex;
+    align-items: center;
+}
+.passenger-controls button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    background-color: white;
+    color: #333;
+    font-size: 1.2em;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+.passenger-controls button:hover {
+    background-color: #f0f0f0;
+}
+.passenger-controls span {
+    margin: 0 10px;
+    font-weight: bold;
+}
+.confirm-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.confirm-btn:hover {
+    background-color: #0056b3;
+}
+.maybaybody {
+    height: 400px;
+}
+.maybaybody img {
+    height: 350px;
+}
+.para {
+    color: black;
+}
+.texth5 h5 {
+    color: black;
+    font-weight: 700;
+    text-align: center;
+}
+.anhloii img {
+    height: 195px;
+}
+.anhloi img {
+    height: 200px;
+}
+.soft-box {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.hover-effect {
+    background-color: white;
+    padding: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.hover-effect:hover {
+    background-color: lightsalmon;
+    color: white;
+}
+.swap {
+    background-color: lightsalmon;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+.swap:hover {
+    background-color: darkblue;
+    color: white;
+}
+.book {
+    background-color: #F7F9FA;
+    color: #0056b3;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+.book:hover {
+    background-color: darkblue;
+    color: white;
+}
+.bg-orange {
+    background-color: lightsalmon;
+}
+.badge {
+    font-weight: normal;
+    padding: 0.35em 0.7em;
+    border-radius: 0.25rem;
+}
+.card.active {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.19);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}

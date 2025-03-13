@@ -1,0 +1,121 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 20, 2024, 11:36:51 PM
+    Author     : Admin
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 800px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.promotion {
+    margin-bottom: 20px;
+}
+
+.promo-card {
+    display: flex;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.promo-card img {
+    margin-right: 10px;
+}
+
+.promo-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.promo-text h4 {
+    font-size: 16px;
+    color: #2b82d4;
+}
+
+.promo-text p {
+    font-size: 14px;
+    color: #555;
+}
+
+.learn-more {
+    font-size: 12px;
+    color: #0066cc;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.flight-search {
+    background-color: #eef7ff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.flight-info {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.flight-options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.date {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.date span {
+    display: block;
+}
+
+.date.selected {
+    background-color: #007bff;
+    color: white;
+}
+
+.footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
